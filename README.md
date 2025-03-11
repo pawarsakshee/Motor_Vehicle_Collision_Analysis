@@ -10,9 +10,7 @@ This project aims to design and implement advanced data architectures for analyz
 ## 📌 **Introduction**  
 Motor vehicle collisions pose a significant challenge in urban planning and public safety. This project aims to design and implement **advanced data architectures** for analyzing **motor vehicle collisions** across three major cities: **New York, Chicago, and Austin**.  
 
-Using powerful **ETL processes, dimensional modeling, and data visualization**, we transform raw crash data into **actionable insights** that help identify patterns, high-risk areas, and accident trends.  
-
-## 🔍 **Project Scope**  
+Using powerful **ETL processes, dimensional modeling, and data visualization**, we transform raw crash data into **actionable insights** that help identify patterns, high-risk areas, and accident trends.   
 
 ### **📊 Data Sources**  
 The data is sourced from the official **Department of Transportation portals**:  
@@ -30,7 +28,7 @@ The data is sourced from the official **Department of Transportation portals**:
 ✔️ Identify areas with **high fatality rates**.  
 
 
-## 🚀 **Project Execution & Timeline**  
+## 🚀 **Execution & Timeline**  
 
 ### **🛠️ Part 1: Data Preparation & ETL**  
 - 📌 **Data Profiling** using **Alteryx/YData Profile**.  
@@ -50,7 +48,7 @@ The data is sourced from the official **Department of Transportation portals**:
 - 📊 **Submission of all ETL scripts, dashboards, and documentation**.  
 
 
-## 📦 **Project Deliverables**  
+## 📦 **Deliverables**  
 ✔️ **Data Profiling Reports** 📜  
 ✔️ **ETL Scripts** (Talend Jobs) ⚙️  
 ✔️ **Staging & Dimensional Models** 🗂️  
@@ -60,7 +58,7 @@ The data is sourced from the official **Department of Transportation portals**:
 ✔️ **Final Submission in a Zip File** 📁  
 
 
-## 📌 **Project Guidelines & Best Practices**  
+## 📌 **Guidelines & Best Practices**  
 ✅ Implement **at least one Slowly Changing Dimension (SCD2)**.  
 ✅ Handle **null values & data inconsistencies** appropriately.  
 ✅ Maintain **source dimension tables** with **audit columns**.  
@@ -70,6 +68,5 @@ The data is sourced from the official **Department of Transportation portals**:
 
 
 ## 📢 **Need Help?**  
-For any queries or support, feel free to **reach out!** Utilize the provided **mapping templates** to streamline your workflow.  
-
+For any queries or support, feel free to **reach out!** at pawar.sak@northeastern.edu
 Happy analyzing! 🚀📊  
