@@ -1,69 +1,65 @@
-# Motor_Vehicle_Collision_Analysis
-Motor Vehicle Collisions Analysis – Designing advanced data architectures for crash analysis in NYC, Chicago, and Austin using ETL (Talend, Alteryx), SQL (Azure, MySQL), and BI tools (Tableau, Power BI). Insights include accident trends, high-risk areas &amp; injuries.
+**Project Title:** Designing Advanced Data Architectures for Business Intelligence - Motor Vehicle Collisions/Crashes Analysis
 
-# 🚗 **Designing Advanced Data Architectures for Business Intelligence**  
-### **Motor Vehicle Collisions/Crashes Analysis**  
+**Introduction:** 
+This project aims to design and implement advanced data architectures for analyzing motor vehicle collisions and crashes data from three major cities: New York, Chicago, and Austin. The data will be obtained from the respective Department of Transportation portals of each city. The project will involve data extraction, transformation, loading (ETL), dimensional modeling, and visualization using tools like Alteryx, Talend, Azure SQL Server/MySQL/SQL Server, Tableau, and Power BI.
 
-## 📌 **Introduction**  
-Motor vehicle collisions pose a significant challenge in urban planning and public safety. This project aims to design and implement **advanced data architectures** for analyzing **motor vehicle collisions** across three major cities: **New York, Chicago, and Austin**.  
+**Project Details:**
+- **Data Sources:**
+  - Motor Vehicle Collisions - Crashes | NYC Open Data (cityofnewyork.us)
+  - Austin Crash Report Data - Crash Level Records | Open Data | City of Austin Texas
+  - Traffic Crashes - Crashes | City of Chicago | Data Portal
 
-Using powerful **ETL processes, dimensional modeling, and data visualization**, we transform raw crash data into **actionable insights** that help identify patterns, high-risk areas, and accident trends.  
- 
+**Project Objectives:**
+1. Determine the total number of accidents in each city.
+2. Present accident data effectively on a dashboard.
+3. Identify areas within each city with the highest number of accidents.
+4. Analyze accidents resulting in injuries.
+5. Investigate pedestrian involvement in accidents.
+6. Determine peak times for accidents (seasonality).
+7. Analyze injuries and fatalities among motorists.
+8. Identify areas with the highest fatality rates.
+9. Conduct time-based analysis of accidents.
+10. Analyze factors contributing to accidents.
 
-### **📊 Data Sources**  
-The data is sourced from the official **Department of Transportation portals**:  
-- 🏙️ **New York**: [Motor Vehicle Collisions - NYC Open Data](https://data.cityofnewyork.us)  
-- 🏙️ **Austin**: [Austin Crash Report Data - City of Austin](https://data.austintexas.gov)  
-- 🏙️ **Chicago**: [Traffic Crashes - City of Chicago Data Portal](https://data.cityofchicago.org)  
+**Project Timeline:**
+- **Part 1:**
+  - Tasks:
+    - Data profiling using Alteryx/ydata profile
+    - Analysis document
+    - Data staging (Staging tables)
+    - ETL jobs using Talend
+    - Incorporation of standard practices
+    - Dimensional modeling (Facts and Dimensions)
+- **Part 2:**
+  - Tasks:
+    - Staging to Integration
+    - Validation of dimensional data
+    - Query dimensional data model for business questions
+- **Part 3:**
+  - Tasks:
+    - Visualization using Tableau and Power BI
+    - Report publication (optional)
+    - Submission of screenshots and source workbooks
 
-### **🎯 Key Objectives**  
-✔️ **Determine the total number of accidents** per city.  
-✔️ **Visualize** accident data using **interactive dashboards**.  
-✔️ Identify **high-risk areas** with the most collisions.  
-✔️ Analyze **injury-related accidents** and **pedestrian involvement**.  
-✔️ Detect **seasonal patterns** and **peak accident hours**.  
-✔️ Investigate **factors contributing to collisions**.  
-✔️ Identify areas with **high fatality rates**.  
+**Project Deliverables:**
+- Data profiling reports
+- Analysis document
+- Staging tables
+- ETL jobs scripts
+- Dimensional model (Facts and Dimensions)
+- Mapping document
+- SQL scripts
+- Validation scripts
+- Visualization dashboards in Tableau : https://public.tableau.com/app/profile/yuga.santosh.kanse/viz/MotorVehicleCollisionAnalysis_17152030344110/Dashboard-Q104 and Power BI
+- Submission in a zip file
 
+**Project Notes:**
+- Configure at least one dimension as SCD2 (Slowly Changing Dimension)
+- Handle null values appropriately
+- Maintain Source DIM table and audit columns
+- Ensure row counts match the file rows
+- Submit as a team, with one person responsible for submission
 
-## 🚀 **Execution & Timeline**  
-
-### **🛠️ Part 1: Data Preparation & ETL**  
-- 📌 **Data Profiling** using **Alteryx/YData Profile**.  
-- 📌 **Data Staging** (Creating staging tables).  
-- 📌 **ETL Pipeline** development using **Talend**.  
-- 📌 **Dimensional Modeling** (Fact & Dimension tables).  
-- 📌 **Ensuring standardization** and best practices.  
-
-### **📂 Part 2: Data Integration & Validation**  
-- 🔎 **Load transformed data** into integration tables.  
-- 🔎 **Validate dimensional model** and ensure data accuracy.  
-- 🔎 **Query dimensional model** for business insights.  
-
-### **📊 Part 3: Visualization & Reporting**  
-- 📊 **Dashboard creation** in **Tableau & Power BI**.  
-- 📊 **Publish reports** (if required).  
-- 📊 **Submission of all ETL scripts, dashboards, and documentation**.  
-
-
-## 📦 **Deliverables**  
-✔️ **Data Profiling Reports** 📜  
-✔️ **ETL Scripts** (Talend Jobs) ⚙️  
-✔️ **Staging & Dimensional Models** 🗂️  
-✔️ **SQL Queries & Validation Scripts** 🔍  
-✔️ **Data Mapping Documents** 📝  
-✔️ **Interactive Dashboards in Tableau & Power BI** 📊  
-✔️ **Final Submission in a Zip File** 📁  
-
-
-## 📌 **Guidelines & Best Practices**  
-✅ Implement **at least one Slowly Changing Dimension (SCD2)**.  
-✅ Handle **null values & data inconsistencies** appropriately.  
-✅ Maintain **source dimension tables** with **audit columns**.  
-✅ **Ensure row counts** match the original file records.  
-✅ Follow **standard ETL and data warehousing practices**.  
-✅ **Collaborate efficiently** – only one team member submits the final work.  
-
-## 📢 **Need Help?**  
-For any queries or support, feel free to **reach out!** at pawar.sak@northeastern.edu
-Happy analyzing! 🚀📊
+**Project Support:**
+- Reach out for any clarification or assistance required.
+- Utilize provided templates for mapping documents if needed.
